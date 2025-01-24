@@ -1,0 +1,170 @@
+@import './variables.css'; /* Ensure the path is correct */
+
+/* Your CSS styles using the variables */
+.desktop1DraftChild {
+  position: absolute;
+  height: var(--dimensions-blur1-height);
+  width: var(--dimensions-blur1-width);
+  top: 44.82%;
+  right: 11.74%;
+  bottom: 10.84%;
+  left: 55.83%;
+  filter: blur(609.72px);
+  border-radius: 50%;
+  background-color: var(--colors-blur-background1);
+}
+
+.desktop1DraftItem {
+  position: absolute;
+  height: var(--dimensions-blur2-height);
+  width: var(--dimensions-blur2-width);
+  top: 54.69%;
+  right: -10.69%;
+  bottom: -9.08%;
+  left: 70.83%;
+  filter: blur(509px);
+  border-radius: 50%;
+  background-color: var(--colors-blur-background2);
+}
+
+.linePatternIcon {
+  position: absolute;
+  top: 150px;
+  left: -324px;
+  width: var(--dimensions-icon-width);
+  height: var(--dimensions-icon-height);
+  background-image: url('../images/Line pattern.svg');
+  background-size: cover;
+}
+
+.noiseIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+  mix-blend-mode: color-burn;
+  background-image: url('../images/Noise.svg');
+  background-size: cover;
+}
+
+.coolestPersonAwards {
+  position: absolute;
+  top: 297px;
+  left: 80px;
+  line-height: 71px;
+  display: inline-block;
+  width: 665px;
+}
+
+.openForVoting {
+  position: absolute;
+  top: 468px;
+  left: 80px;
+  font-size: var(--typography-font-size-secondary);
+  line-height: 58px;
+  color: var(--colors-text-secondary);
+}
+
+.coolestPersonAwards1 {
+  position: relative;
+}
+
+.pastWinners {
+  position: relative;
+  font-weight: var(--typography-font-weight-bold);
+}
+
+.button {
+  border-radius: 4px;
+  background-color: var(--colors-text-secondary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-padding-button);
+}
+
+.pastWinnersParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--spacing-gap);
+  font-size: 16px;
+}
+
+.coolestPersonAwardsParent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-padding);
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: var(--typography-font-family-secondary);
+}
+
+.whenYouHave {
+  position: absolute;
+  top: 550px;
+  left: 80px;
+  font-size: var(--typography-font-size-small);
+  font-weight: var(--typography-font-weight-light);
+  font-family: var(--typography-font-family-secondary);
+  display: inline-block;
+  width: 478px;
+}
+
+.desktop1DraftInner {
+  position: absolute;
+  top: 687px;
+  left: 80px;
+  background-color: var(--colors-text-secondary);
+  width: var(--dimensions-inner-width);
+  height: var(--dimensions-inner-height);
+}
+
+.vectorIcon {
+  position: absolute;
+  top: 170px;
+  left: 675px;
+  width: 624px;
+  height: 760px;
+  background-image: url('../images/Vector 1.svg');
+  background-size: cover;
+}
+
+.image16Icon {
+  position: absolute;
+  top: 157px;
+  left: 605px;
+  width: 654px;
+  height: 745px;
+  object-fit: cover;
+  background-image: url('../images/image 16.png');
+  background-size: cover;
+}
+
+.desktop1Draft {
+  width: var(--dimensions-desktop-width);
+  position: relative;
+  background-color: var(--colors-background);
+  height: var(--dimensions-desktop-height);
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--typography-font-size);
+  color: var(--colors-text-primary);
+  font-family: var(--typography-font-family);
+}
