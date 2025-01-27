@@ -9,7 +9,7 @@
   left: 55.83%;
   filter: blur(609.72px);
   border-radius: 50%;
-  background-color: #dd8866;
+  background-color: var(--colors-primary-light);
 }
 .desktop1DraftItem {
   position: absolute;
@@ -21,7 +21,7 @@
   left: 70.83%;
   filter: blur(509px);
   border-radius: 50%;
-  background-color: #d24a32;
+  background-color: var(--colors-primary-dark);
 }
 .linePatternIcon {
   position: absolute;
@@ -29,7 +29,7 @@
   left: -324px;
   width: 2409px;
   height: 1427px;
-  background-image: url('../images/Line\ pattern.svg')
+  background-image: url('../images/Line\ pattern.svg');
 }
 .noiseIcon {
   position: absolute;
@@ -45,12 +45,12 @@
   object-fit: cover;
   opacity: 0.6;
   mix-blend-mode: color-burn;
-  background-image: url('../images/Noise.svg')
+  background-image: url('../images/Noise.svg');
 }
 .coolestPersonAwards {
   position: relative;
   text-transform: capitalize;
-  text-shadow: 0.2px 0 0 #fff, 0 0.2px 0 #fff, -0.2px 0 0 #fff, 0 -0.2px 0 #fff;
+  text-shadow: 0.2px 0 0 var(--colors-white), 0 0.2px 0 var(--colors-white), -0.2px 0 0 var(--colors-white), 0 -0.2px 0 var(--colors-white);
 }
 .candidates {
   position: relative;
@@ -71,7 +71,7 @@
   justify-content: flex-start;
   gap: 32px;
   font-size: 16px;
-  color: #e3e8ef;
+  color: var(--colors-grey-200);
   font-family: Inter;
 }
 .coolestPersonAwardsParent {
@@ -82,7 +82,7 @@
   gap: 64px;
 }
 .button {
-  border: 2px solid #fff;
+  border: 2px solid var(--colors-white);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -117,14 +117,14 @@
   align-self: stretch;
   position: relative;
   line-height: 71px;
-  text-shadow: 0.5px 0 0 #fff, 0 0.5px 0 #fff, -0.5px 0 0 #fff, 0 -0.5px 0 #fff;
+  text-shadow: 0.5px 0 0 var(--colors-white), 0 0.5px 0 var(--colors-white), -0.5px 0 0 var(--colors-white), 0 -0.5px 0 var(--colors-white);
 }
 .awardsOpenFor {
   align-self: stretch;
   position: relative;
   font-size: 48px;
   line-height: 58px;
-  color: #dd9366;
+  color: var(--colors-primary-default);
 }
 .weMakeBeingCoolAnOlympicParent {
   align-self: stretch;
@@ -141,7 +141,7 @@
   position: relative;
   line-height: 28px;
   font-weight: 300;
-  color: #eef2f6;
+  color: var(--colors-grey-100);
   display: inline-block;
 }
 .voteNow1 {
@@ -151,15 +151,15 @@
 }
 .button2 {
   width: 228px;
-  background-color: #dd9366;
-  border: 2px solid #dd9366;
+  background-color: var(--colors-primary-default);
+  border: 2px solid var(--colors-primary-default);
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 12px 32px;
-  color: #171b1f;
+  color: var(--colors-grey-900);
 }
 .frameGroup {
   position: absolute;
@@ -194,14 +194,14 @@
   left: 0px;
   width: 654px;
   height: 745px;
-  background-image: url('../images/Dolly.png')
+  background-image: url('../images/Dolly.png');
 }
 .header {
   position: absolute;
   top: 682.34px;
   left: 28.45px;
   font-weight: 900;
-  transform:  rotate(-13.4deg);
+  transform: rotate(-13.4deg);
   transform-origin: 0 0;
 }
 .header1 {
@@ -210,7 +210,7 @@
   left: 15px;
   font-size: 100px;
   font-weight: 900;
-  transform:  rotate(-18.3deg);
+  transform: rotate(-18.3deg);
   transform-origin: 0 0;
 }
 .ohGodWhatIsThis {
@@ -221,17 +221,18 @@
   height: 799.1px;
   text-align: center;
   font-size: 120px;
-  color: #fcfcfd;
+  color: var(--colors-grey-200);
 }
 .desktop1Draft {
   width: 100%;
   position: relative;
   border-radius: 8px;
-  background-color: #171b1f;
+  background-color: var(--colors-grey-900);
   height: 1024px;
   overflow: hidden;
   text-align: left;
   font-size: 24px;
-  color: #fff;
+  color: var(--colors-white);
   font-family: Inter;
 }
+ 

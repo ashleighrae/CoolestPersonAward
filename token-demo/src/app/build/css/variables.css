@@ -3,32 +3,11 @@
  */
 
 :root {
-  --colors-primary: #dd8866;
-  --colors-secondary: #d24a32;
-  --colors-background: #171b1f;
-  --colors-text-primary: #ffffff;
-  --colors-text-secondary: #dd9366;
-  --colors-blur-background1: #dd8866;
-  --colors-blur-background2: #d24a32;
-  --typography-font-family: Unna, serif;
-  --typography-font-family-secondary: Inter, sans-serif;
-  --typography-font-size: 72px;
-  --typography-font-size-secondary: 48px;
-  --typography-font-size-small: 20px;
-  --typography-font-weight-light: 300;
-  --typography-font-weight-regular: 400;
-  --typography-font-weight-bold: 600;
-  --spacing-padding: 24px 80px;
-  --spacing-gap: 40px;
-  --spacing-padding-button: 8px 16px;
-  --dimensions-desktop-height: 1024px;
-  --dimensions-desktop-width: 100%;
-  --dimensions-blur1-height: 44.34%;
-  --dimensions-blur1-width: 32.43%;
-  --dimensions-blur2-height: 54.39%;
-  --dimensions-blur2-width: 39.86%;
-  --dimensions-icon-width: 2409px;
-  --dimensions-icon-height: 1427px;
-  --dimensions-inner-width: 253px;
-  --dimensions-inner-height: 64px;
+  --colors-grey-900: #171b1f;
+  --colors-grey-200: #e3e8ef;
+  --colors-primary-default: #dd9366;
+  --colors-white: #ffffff;
+  --colors-primary-dark: #d24a32;
+  --colors-primary-light: #dd8766;
+  --colors-grey-100: #eef2f6;
 }
