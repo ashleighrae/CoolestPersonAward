@@ -8,23 +8,45 @@ export default function Home() {
       <div className={styles.desktop1DraftItem} />
       <div className={styles.linePatternIcon} />
       <div className={styles.noiseIcon} />
-      <div className={styles.coolestPersonAwards}>2025 Coolest Person Awards</div>
-      <i className={styles.openForVoting}>Open for voting now</i>
-      <div className={styles.coolestPersonAwardsParent}>
-        <b className={styles.coolestPersonAwards1}>Coolest person awards</b>
-        <div className={styles.pastWinnersParent}>
-          <div className={styles.pastWinners}>Past winners</div>
-          <div className={styles.pastWinners}>2025 Candidates</div>
-          <div className={styles.pastWinners}>About us</div>
-          <div className={styles.button}><div className={styles.pastWinners}>Vote now</div></div>
+      <div className={styles.frameParent}>
+        <div className={styles.coolestPersonAwardsParent}>
+          <i className={styles.coolestPersonAwards}>Coolest Person Awards</i>
+          <div className={styles.menuitemParent}>
+            <div className={styles.menuitem}>
+              <div className={styles.candidates}>Past Winners</div>
+            </div>
+            <div className={styles.menuitem}>
+              <div className={styles.candidates}>{`Categories & Candidates `}</div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.buttonWrapper}>
+          <div className={styles.button}>
+            <div className={styles.candidates}>Vote now</div>
+          </div>
         </div>
       </div>
-      <div className={styles.whenYouHave}>
-        When you have some text, how can you choose a typeface? Many people—professional designers included—go through an app’s font menu until we find one we like.
+      <div className={styles.frameGroup}>
+        <div className={styles.weMakeBeingCoolAnOlympicParent}>
+          <div className={styles.weMakeBeingContainer}>
+            <p className={styles.weMakeBeing}>We Make Being Cool</p>
+            <p className={styles.weMakeBeing}>an Olympic Sport</p>
+          </div>
+          <i className={styles.awardsOpenFor}>Awards open for voting now</i>
+        </div>
+        <div className={styles.forgetTheOscars}>Forget the Oscars. Those are for people that can cry on cue. We reward the people who actually make life intresting.</div>
+        <div className={styles.button2}>
+          <div className={styles.voteNow1}>Vote Now</div>
+        </div>
       </div>
-      <div className={styles.desktop1DraftInner} />
-      <div className={styles.vectorIcon} />
-      <div className={styles.image16Icon} />
+      <div className={styles.ohGodWhatIsThis}>
+        <div className={styles.dolly}>
+          <div className={styles.subtractIcon} />
+          <div className={styles.file2Icon} />
+        </div>
+        <div className={styles.header}>😎</div>
+        <div className={styles.header1}>👑</div>
+      </div>
     </div>
   );
 }
