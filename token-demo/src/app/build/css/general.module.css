@@ -29,7 +29,7 @@
 .linePatternIcon {
   position: absolute;
   top: 150px;
-  left: -324px;
+  right: -1024px;
   width: var(--dimensions-icon-width);
   height: var(--dimensions-icon-height);
   background-image: url('../images/Line pattern.svg');
