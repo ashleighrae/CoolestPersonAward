@@ -1,8 +1,9 @@
 @import './variables.css'; /* Ensure the path is correct */
+
 .desktop1DraftChild {
   position: absolute;
-  height: 44.34%;
-  width: 32.43%;
+  height: var(--dimensions-blur1-height);
+  width: var(--dimensions-blur1-width);
   top: 44.82%;
   right: 11.74%;
   bottom: 10.84%;
@@ -11,10 +12,11 @@
   border-radius: 50%;
   background-color: var(--colors-primary-light);
 }
+
 .desktop1DraftItem {
   position: absolute;
-  height: 54.39%;
-  width: 39.86%;
+  height: var(--dimensions-blur2-height);
+  width: var(--dimensions-blur2-width);
   top: 54.69%;
   right: -10.69%;
   bottom: -9.08%;
@@ -23,14 +25,16 @@
   border-radius: 50%;
   background-color: var(--colors-primary-dark);
 }
+
 .linePatternIcon {
   position: absolute;
   top: 150px;
   left: -324px;
-  width: 2409px;
-  height: 1427px;
-  background-image: url('../images/Line\ pattern.svg');
+  width: var(--dimensions-icon-width);
+  height: var(--dimensions-icon-height);
+  background-image: url('../images/Line pattern.svg');
 }
+
 .noiseIcon {
   position: absolute;
   height: 100%;
@@ -47,22 +51,26 @@
   mix-blend-mode: color-burn;
   background-image: url('../images/Noise.svg');
 }
+
 .coolestPersonAwards {
   position: relative;
   text-transform: capitalize;
+  font-size: 24px;
   text-shadow: 0.2px 0 0 var(--colors-white), 0 0.2px 0 var(--colors-white), -0.2px 0 0 var(--colors-white), 0 -0.2px 0 var(--colors-white);
 }
+
 .candidates {
   position: relative;
   text-transform: capitalize;
-  font-weight: 500;
 }
+
 .menuitem {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
+
 .menuitemParent {
   align-self: stretch;
   display: flex;
@@ -70,10 +78,11 @@
   align-items: center;
   justify-content: flex-start;
   gap: 32px;
-  font-size: 16px;
+  font-size: var(--font-size-1); /* 20px */
   color: var(--colors-grey-200);
-  font-family: Inter;
+  font-family: var(--font-families-inter);
 }
+
 .coolestPersonAwardsParent {
   display: flex;
   flex-direction: row;
@@ -81,6 +90,7 @@
   justify-content: flex-start;
   gap: 64px;
 }
+
 .button {
   border: 2px solid var(--colors-white);
   display: flex;
@@ -89,14 +99,17 @@
   justify-content: center;
   padding: 10px 16px;
 }
+
 .buttonWrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  font-size: 16px;
-  font-family: Inter;
+  font-size: var(--font-size-1); /* 20px */
+  font-family: var(--font-families-inter);
+  font-weight: 500;
 }
+
 .frameParent {
   position: absolute;
   top: 0px;
@@ -106,26 +119,30 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 80px;
+  padding: var(--spacing-padding); /* 24px 80px */
   box-sizing: border-box;
-  font-family: Unna;
+  font-family: var(--font-families-unna);
 }
+
 .weMakeBeing {
   margin: 0;
 }
+
 .weMakeBeingContainer {
   align-self: stretch;
   position: relative;
   line-height: 71px;
   text-shadow: 0.5px 0 0 var(--colors-white), 0 0.5px 0 var(--colors-white), -0.5px 0 0 var(--colors-white), 0 -0.5px 0 var(--colors-white);
 }
+
 .awardsOpenFor {
   align-self: stretch;
   position: relative;
-  font-size: 48px;
+  font-size: var(--font-size-2); /* 48px */
   line-height: 58px;
   color: var(--colors-primary-default);
 }
+
 .weMakeBeingCoolAnOlympicParent {
   align-self: stretch;
   display: flex;
@@ -133,22 +150,25 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 24px;
-  font-size: 72px;
-  font-family: Unna;
+  font-size: var(--font-size-3); /* 72px */
+  font-family: var(--font-families-unna);
 }
+
 .forgetTheOscars {
   width: 478px;
   position: relative;
   line-height: 28px;
-  font-weight: 300;
-  color: var(--colors-grey-100);
+  font-weight: var(--font-weights-inter-2); /* Light */
+  color: var(--colors-grey-200);
   display: inline-block;
 }
+
 .voteNow1 {
   position: relative;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: var(--font-weights-inter-3); /* Semi Bold */
 }
+
 .button2 {
   width: 228px;
   background-color: var(--colors-primary-default);
@@ -161,6 +181,7 @@
   padding: 12px 32px;
   color: var(--colors-grey-900);
 }
+
 .frameGroup {
   position: absolute;
   top: 297px;
@@ -171,8 +192,9 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 32px;
-  font-size: 20px;
+  font-size: var(--font-size-1); /* 20px */
 }
+
 .subtractIcon {
   position: absolute;
   top: 36px;
@@ -180,6 +202,7 @@
   width: 553px;
   height: 709px;
 }
+
 .file2Icon {
   position: absolute;
   top: 0px;
@@ -188,6 +211,7 @@
   height: 745px;
   object-fit: cover;
 }
+
 .dolly {
   position: absolute;
   top: 0px;
@@ -196,6 +220,7 @@
   height: 745px;
   background-image: url('../images/Dolly.png');
 }
+
 .header {
   position: absolute;
   top: 682.34px;
@@ -204,6 +229,7 @@
   transform: rotate(-13.4deg);
   transform-origin: 0 0;
 }
+
 .header1 {
   position: absolute;
   top: 625.34px;
@@ -213,6 +239,7 @@
   transform: rotate(-18.3deg);
   transform-origin: 0 0;
 }
+
 .ohGodWhatIsThis {
   position: absolute;
   top: 150px;
@@ -223,6 +250,7 @@
   font-size: 120px;
   color: var(--colors-grey-200);
 }
+
 .desktop1Draft {
   width: 100%;
   position: relative;
@@ -231,8 +259,7 @@
   height: 1024px;
   overflow: hidden;
   text-align: left;
-  font-size: 24px;
+  font-size: var(--font-size-0); /* 12px */
   color: var(--colors-white);
-  font-family: Inter;
+  font-family: var(--font-families-inter);
 }
- 
