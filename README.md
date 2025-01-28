@@ -14,6 +14,7 @@ Welcome to the **Coolest Person Award** repository, where we celebrate the one a
    ```bash
    cd CoolestPersonAward
    git pull
+   npm install
    ```
 
 3. **Transform the Tokens**: 
