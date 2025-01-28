@@ -12,7 +12,7 @@ Welcome to the **Coolest Person Award** repository, where we celebrate the one a
 2. **Pull the Latest Changes**: 
    Keep your local copy fresh:
    ```bash
-   cd CoolestPersonAward
+   cd token-demo
    git pull
    npm install
    ```
